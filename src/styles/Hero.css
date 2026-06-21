@@ -1,0 +1,17 @@
+.hero{
+  min-height:80vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:#f3f4f6;
+  padding:80px;
+}
+
+.hero h1{
+  font-size:3rem;
+}
+
+.hero p{
+  margin-top:10px;
+}

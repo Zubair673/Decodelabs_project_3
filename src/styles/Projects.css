@@ -1,0 +1,19 @@
+.projects{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  padding:60px 10%;
+}
+
+.card{
+  padding:30px;
+  background:white;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+@media(max-width:768px){
+  .projects{
+    grid-template-columns:1fr;
+  }
+}
