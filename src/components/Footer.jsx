@@ -8,14 +8,14 @@ function Footer() {
       <p>
         Email:
         <a href="mailto:zubair@example.com">
-          zubair@example.com
+          zubairzk2244@egmail.com
         </a>
       </p>
 
       <p>
         Phone:
-        <a href="tel:+923001234567">
-          +92 300 1234567
+        <a href="tel:+923248267995">
+          +92 324 8267995
         </a>
       </p>
 
