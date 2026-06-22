@@ -102,7 +102,7 @@ Through this project, I practiced:
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Zubair673/Decodelabs_project_3.git>
 ```
 
 Install dependencies:
