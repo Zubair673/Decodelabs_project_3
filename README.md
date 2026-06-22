@@ -1,25 +1,26 @@
-# Responsive Portfolio Website
+# Interactive React Portfolio
 
-A modern and responsive portfolio website built with React and CSS as part of my Frontend Development Internship.
+An interactive and responsive portfolio website built with React as part of the DecodeLabs Frontend Development Internship Project 3.
 
 ## Features
 
-- Responsive Navigation Bar
-- Mobile-Friendly Design
-- Hamburger Menu for Mobile Devices
-- Hero Section
-- About Section
-- Projects Section
-- Contact Section
+- Responsive Design
+- Mobile-Friendly Navigation
+- Hamburger Menu
+- Dark / Light Mode Toggle
+- Dynamic Welcome Message
+- Interactive Like Buttons
 - Smooth Scrolling Navigation
-- CSS Media Queries
+- React State Management
+- User Interaction with JavaScript
+- Dynamic Content Updates
 
 ## Technologies Used
 
 - React.js
 - JavaScript (ES6+)
-- CSS3
 - HTML5
+- CSS3
 - Vite
 
 ## Project Structure
@@ -48,32 +49,69 @@ src/
 └── main.jsx
 ```
 
+## Interactive Features
+
+### Dark Mode Toggle
+
+Users can switch between light mode and dark mode using the theme toggle button.
+
+### Dynamic Welcome Message
+
+A button click updates the welcome message instantly using React state.
+
+### Project Like Counter
+
+Each project card contains an interactive like button with its own live counter.
+
+### Responsive Navigation
+
+The navigation bar automatically transforms into a hamburger menu on smaller screens.
+
+## Projects Included
+
+### Project 1
+Static Webpage Design
+
+### Project 2
+Responsive Portfolio Website
+
+### Project 3
+Interactive React Portfolio
+
+### Project 4
+Calculator App
+
+### Project 5
+Responsive Image Gallery
+
 ## Learning Outcomes
 
 Through this project, I practiced:
 
 - React Components
-- Component-Based Architecture
+- React Hooks (useState)
+- Event Handling
+- State Management
 - Responsive Web Design
 - CSS Media Queries
-- Mobile Navigation
+- JavaScript Interactivity
 - Git & GitHub Workflow
 
-## Getting Started
+## Installation
 
-1. Clone the repository
+Clone the repository:
 
 ```bash
 git clone <repository-url>
 ```
 
-2. Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Run the project
+Run the development server:
 
 ```bash
 npm run dev
@@ -81,6 +119,6 @@ npm run dev
 
 ## Author
 
-**Muhammad Zubair Rauf**
+**Zubair Shaikh**
 
 Frontend Developer

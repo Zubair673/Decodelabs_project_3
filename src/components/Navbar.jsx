@@ -3,16 +3,28 @@ import "../styles/Navbar.css";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleTheme = () => {
+    document.body.classList.toggle("dark-mode");
+    setDarkMode(!darkMode);
+  };
 
   return (
     <nav className="navbar">
       <h2>Zubair</h2>
 
-      <div
-        className="menu-icon"
-        onClick={() => setMenuOpen(!menuOpen)}
-      >
-        ☰
+      <div className="nav-right">
+        <button className="theme-btn" onClick={toggleTheme}>
+          {darkMode ? "☀️" : "🌙"}
+        </button>
+
+        <div
+          className="menu-icon"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          ☰
+        </div>
       </div>
 
       <ul className={menuOpen ? "nav-links active" : "nav-links"}>

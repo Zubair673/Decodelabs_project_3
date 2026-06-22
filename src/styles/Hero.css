@@ -15,3 +15,39 @@
 .hero p{
   margin-top:10px;
 }
+.hero{
+    min-height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:#f3f4f6;
+    padding:40px;
+}
+.hero button{
+    margin-top:20px;
+    padding:12px 24px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero button:hover{
+    opacity:0.9;
+}
+.hero button{
+    margin-top:20px;
+    padding:12px 24px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    background:#2563eb;
+    color:white;
+    font-weight:bold;
+}
+
+.hero button:hover{
+    opacity:0.9;
+}

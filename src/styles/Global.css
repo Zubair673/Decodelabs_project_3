@@ -35,3 +35,23 @@ img{
 a{
     text-decoration: none;
 }
+.dark-mode{
+    background-color:#111827;
+    color:white;
+}
+.dark-mode .hero{
+    background:#111827;
+    color:white;
+}
+.dark-mode .card{
+    background:#1f2937;
+    color:white;
+}
+
+.dark-mode .card p{
+    color:#d1d5db;
+}
+.dark-mode .hero button{
+    background:#3b82f6;
+    color:white;
+}
