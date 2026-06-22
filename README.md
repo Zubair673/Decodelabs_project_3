@@ -119,6 +119,6 @@ npm run dev
 
 ## Author
 
-**Zubair Shaikh**
+**Muhammad Zubair Rauf**
 
 Frontend Developer
